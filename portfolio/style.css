@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+body .left{
+    width: 30vw;
+    height: 100vh;
+    background-color: rgb(68, 67, 67);
+}
+
+body .right{
+    width: 80vw;
+    height: 100vh;
+    background-color: white;
+}
+
+body .left .box-img-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 20vh;
+    background-color: rgb(68, 67, 67);
+}
+
+body .left .box-img-name img{
+    margin-right: 2vw;
+    width: 100px;
+    height: 100px;
+}
+
+body .left .box-img-name h1{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+body .left .about{
+    margin-top: 5vh;
+    width: 30vw;
+    height: 25vh;
+    background-color: rgb(68, 67, 67);
+}
+
+body .left .about h3{
+    margin-left: 4.3vh;
+    color: #ffffff;
+}
+
+body .left .about p {
+    color: #ffffff;
+    text-align: justify;
+    margin: 0px 40px 40px 40px;
+    margin-left: 4.3vh;
+}
+
+body .left .contact{
+    margin-top: 10vh;
+    width: 30vw;
+    height: 17vh;
+    background-color: rgb(68, 67, 67);
+}
+
+body .left .contact h3{
+    margin-left: 4.3vh;
+    color: #ffffff;
+}
+
+body .left .contact a{
+    text-decoration: none;
+    margin-left: 4.3vh;
+    color: #ffffff;
+}
+
+body .left .languages{
+    margin-top: 5vh;
+    width: 30vw;
+    height: 17vh;
+    background-color: rgb(68, 67, 67);
+}
+
+body .left .languages h3{
+    margin-left: 4.3vh;
+    color: #ffffff;
+}
+
+body .left .languages p{
+    margin-left: 4.3vh;
+    color: #ffffff;
+}
+
+body .right{
+    overflow: scroll;
+    scrollbar-width: none;
+    width: 80vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+body .right .project{
+    margin-left: 1vw;
+    border-radius: 10px;
+    margin-top: 2.5vh;
+    width: 68vw;
+    height: 40vh;
+    border: 1px solid black;
+    
+}
+
+body .right .project:hover{
+    background-color: #eeeded;
+}
+
+body .right .project h3{
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+body .right .project p{
+    margin: 4px 40px 5px 40px;
+    text-align: justify;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+body .right .project a{
+    color:rgb(38, 16, 163);
+    text-decoration: none;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+body .right .final{
+    margin-left: 5vw;
+    border-radius: 10px;
+    margin-top: 3vh;
+    width: 60vw;
+    height: 5vh;
+}
+
+@media screen and (max-width: 1100px) { 
+    body {
+        flex-direction: column;
+        overflow-y: auto;
+        position: relative;
+    }
+
+    body .left{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(68, 67, 67);
+    }
+
+    body .left .box-img-name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 20vh;
+        background-color: rgb(68, 67, 67);
+    }
+
+    body .left .box-img-name img{
+        margin-right: 5vw;
+        width: 80px;
+        height: 80px;
+    }
+
+    body .left .box-img-name h1{
+        color: aliceblue;
+        font-size: 15px;
+    }
+
+    body .left .about{
+        margin-top: 5vh;
+        width: 100vw;
+        height: 25vh;
+        background-color: rgb(68, 67, 67);
+    }
+
+    body .left .about p{
+        font-size: 13px;
+    }
+
+    body .right{
+        overflow: none;
+        scrollbar-width: none;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+    }
+
+    body .right .project{
+        margin-left: 4.5vw;
+        border-radius: 10px;
+        margin-top: 2.5vh;
+        width: 90vw;
+        height: 20vh;
+        border: 1px solid black; 
+    }
+
+    body .right .project p{
+        font-size: 0px;
+    }
+
+    body .left .contact{
+        margin-top: 11vh;
+        width: 30vw;
+        height: 17vh;
+        background-color: rgb(68, 67, 67);
+    }
+
+    body .left .contact h3{
+        font-size: 13px;
+    }
+
+    body .left .languages{
+        margin-top: 1vh;
+        width: 30vw;
+        height: 17vh;
+        background-color: rgb(68, 67, 67);
+    }
+
+    body .left .languages h3{
+        font-size: 13px;
+    }
+}
