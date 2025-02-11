@@ -1,0 +1,38 @@
+.link{
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(1, 22, 92, 0.788);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.link a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.link:hover{
+    background-color: rgba(6, 33, 124, 0.788);
+}
+
+@media (max-width:600px) {
+    .link{
+        
+        width: 250px;
+        height: 40px;
+       
+    }
+    .link p{
+        font-size: 15px;
+    }
+
+    .space{
+        font-size: 13px;
+    }
+     
+}
